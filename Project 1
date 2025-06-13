@@ -1,0 +1,30 @@
+version: "3.1"
+intents:
+  - greet
+  - internship_info
+  - application_process
+  - company_info
+  - application_deadline
+  - goodbye
+
+responses:
+  utter_greet:
+    - text: "Hi! How can I assist you today?"
+
+  utter_internship_info:
+    - text: "Yes, we offer internships in both summer and winter sessions. Check our careers page."
+
+  utter_application_process:
+    - text: "You can apply through our website by submitting the online application form and resume."
+
+  utter_company_info:
+    - text: "We are a leading tech company focused on AI and software development."
+
+  utter_application_deadline:
+    - text: "The deadline for internship applications is June 30th."
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day."
+
+  utter_default:
+    - text: "I'm sorry, I didn't quite understand. Can you rephrase your question?"
